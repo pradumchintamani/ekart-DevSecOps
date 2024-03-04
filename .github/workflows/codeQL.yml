@@ -12,7 +12,7 @@ jobs:
   analyze:
     name: Analyze with CodeQL
     runs-on: ubuntu-latest
-
+    permissions: write-all
     strategy:
       matrix:
         language: [ 'java' ] # Add other languages if needed
